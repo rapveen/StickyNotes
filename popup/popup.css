@@ -1,0 +1,127 @@
+body{
+width: 250px;
+height: 350px;     
+}
+#settingspanel{
+display:none;
+padding: 5px;
+}
+#inspanel{
+display:none;
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+font-size: 17px;
+}
+#aboutpanel{
+display:none;
+padding: 5px;
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+font-size: 17px;
+}
+#items{
+	margin-top: 12px;
+	height: 200px;
+	background: grey;
+  color: #141823;
+}
+#topbar{
+	font-family: "Lucida Sans Typewriter","Lucida Console",monaco,"Bitstream Vera Sans Mono",monospace;
+  font-style: bold;
+  text-align: center;
+}
+#settings{
+	font-size: 15px;
+	font-family: sans-serif;
+}
+#set{
+	margin-top: 10px;
+	margin-left: 3px;
+}
+#about{
+	font-size: 15px;
+	width: 200px;
+  font-style: bold;
+  font-size: 18px;
+  color: #141823;
+}
+#abo{
+	margin-top: 10px;
+	margin-left: 3px;
+  
+}
+#ins{
+	font-size: 15px;
+	width: 150px;
+  font-style: bold;
+  font-size: 18px;
+  color: #141823;
+}
+#inst{
+	margin-top: 10px;
+	margin-left: 3px;
+}
+
+
+#b1{
+	float: right;
+	margin-right: 10px;
+}
+#b2{
+	float: right;
+	margin-right: 10px;
+}
+.btn-primary{
+  width: 100px;
+}
+#image{
+	height: 100%;
+	width: 100%;
+}
+
+.styled-select {
+  -webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: none;
+  
+  background-position: center right;
+  background-repeat: no-repeat;
+  border: 1px solid #AAA;
+  color: #555;
+  font-size: inherit;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100px;
+  height: 20px;
+}
+.label-default {
+    background-color: cadetblue;
+}
+.foo {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.blue {
+  background: #13b4ff;
+}
+
+td{
+
+			height: 20px;
+			width: 20px;
+			border: 1px solid black;
+			margin-right: 5px;
+		}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}

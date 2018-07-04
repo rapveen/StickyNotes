@@ -1,0 +1,82 @@
+.Notexyz{
+	height: 260px;
+	width: 200px;
+	margin-left: 100px;
+	z-index: 1000000000;
+	border-radius: 20px;
+	font-family: 'Comic Sans MS';
+}
+
+.Notexyzdragger{
+	width: 100%;
+	height: 4%;
+	background-color: orange;
+}
+.NotexyzHeader{
+	width: 100%;
+	height: 12%;
+	background-color: orange;
+
+}
+
+.NotexyzTable{
+	width:100%;
+	height: 100%;
+}
+
+
+.NotexyzTr{
+	height: 50%;
+	width: 100%;
+}
+
+.NotexyzTd1{
+	height: 100%;
+	width: 70%;
+}
+
+.NotexyzTd2{
+	height: 100%;
+	width: 15%;
+}
+
+.NotexyzTd3{
+	height: 100%;
+	width: 15%;
+}
+
+.NotexyzTitle{
+	width: 95%;
+	height: 65%;
+	resize: none;
+	margin-left: 3px;
+	border: none;
+	padding:0 0 0 0;
+	background-color:#ffffa5;
+	font-family: 'Times New Roman';
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.NotexyzMini{
+	width: 20px;
+	height: 20px;
+	margin-left: 7px;
+
+}
+
+.NotexyzDel{
+	width:20px;
+	height: 20px;
+	margin-left: 7px;
+}
+
+.NotexyzText{
+	width:100%;
+	height: 84%; 
+	background-color: #ffcd5a;
+	resize: none;
+	overflow: auto;
+	border: none;
+	font-size: 15px;
+}

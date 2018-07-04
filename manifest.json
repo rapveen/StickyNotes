@@ -1,0 +1,29 @@
+{
+"manifest_version":2,
+"name" : "stickynote",
+"version" : "1.0",
+"description":"Lets you add stickynotes to the webpages you visit",
+"browser_action": {
+          "default_icon": {                    // optional
+            "16": "images/icon.png",           // optional
+            "24": "images/icon.png",           // optional
+            "32": "images/icon.png"            // optional
+          },
+          "default_title": "Sticky notes",      // optional; shown in tooltip
+          "default_popup": "popup/popup.html"        // optional
+        },
+"icons": { "16": "images/icon.png",
+           "48": "images/icon.png",
+          "128": "images/icon.png" },
+"content_scripts":[{
+	"matches" : ["<all_urls>"],
+	"js":["library/jquery-3.1.1.min.js","library/jquery-ui-1.12.1.custom/jquery-ui.min.js","content/createNew.js","content/main.js"],
+	"css":["library/jquery-ui-1.12.1.custom/jquery-ui.min.css","library/bootstrap-3.3.7-dist/css/bootstrap.min.css","content/createNew.css"]
+}],
+"background":{
+	"scripts":["background/background.js","background/background2.js"],
+	"persistent":true
+},
+"permissions":["contextMenus","tabs","activeTab","storage","unlimitedStorage"],
+"web_accessible_resources":["images/delete.png","images/minimize.png"]
+}
