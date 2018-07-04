@@ -1,2 +1,2 @@
 Enables user to add sticky notes to webpages one regularly visits .It has many customization
-options. They are loaded along with web page in which they are attached.
+options. They are loaded along with web page in which they are attached. The sticknotes are stored in local memory. When a page is reloaded background.js requests content.js to retrive the stored notes from local memory to load in chrome.
